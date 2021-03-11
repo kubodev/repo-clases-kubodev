@@ -1,0 +1,63 @@
+git config --global user.name "kubodev"
+git config --global user.email "moisesmagna@gmail.com"
+
+head -n 3 ~/.gitconfig
+
+#iniciar un repositorio
+git init
+
+
+touch Readme.md
+
+#agregar archivos a la área de preparación
+git add Readme.md
+o 
+git add .
+
+#hacer commit de los cambios con un mensaje que explique los cambios
+git commit -m "texto del flow"
+
+#nos indica el estado del repositorio
+git status
+
+#subir los archivos a un repositorio remoto
+git push origin master
+
+#clonar un repositorio
+git clone <http://url-repo>
+
+#Listar el historial de versiones de la rama actual
+git log
+
+#Fusionar todos los cambios que se han hecho en el repositorio local con el directorio de trabajo local
+git pull
+
+#crear una nueva rama
+git branch <Nombre rama>
+git checkout -b <nombre de la rama>
+
+#Listar las ramas
+git branch
+
+#cambiar de rama
+git checkout <nombre de la rama>
+
+#borrar una rama
+git branch -d <nombre de la rama>
+
+#se usar para fusionar un rama con otra rama activa
+git merge
+
+#permite ver todos los repositorios remotos
+git remote -v
+
++++++++++++++++++++++++++++++++
+
+netlify
+
+freenom
+
+
+
+
+git push origin master
