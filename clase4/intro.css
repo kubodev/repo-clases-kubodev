@@ -1,0 +1,17 @@
+body {
+    background-color: #eeeeee;
+}
+
+#longi {
+    color: red;
+    background-color: white;
+}
+
+.soyUnaClase {
+    color: #00aa00;
+    display: block;
+}
+#soyOtroid {
+    background-color: #000000;
+    color: #ffffff;
+}
